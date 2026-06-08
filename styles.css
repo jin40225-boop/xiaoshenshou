@@ -433,7 +433,8 @@ footer.site .fs { font-size: 12.5px; color: rgba(251,246,233,0.55); }
    ANIMATION HOOKS (JS adds .is-armed when GSAP is ready;
    without JS/GSAP everything stays fully visible)
    ============================================================ */
-.is-armed [data-reveal] { opacity: 0; transform: translateY(34px); }
+/* [data-reveal] is hidden by GSAP .from() (immediateRender), not CSS — so a
+   direct hash-jump to a section still reveals its content instead of staying blank. */
 .is-armed .hero-org,
 .is-armed .hero-plan,
 .is-armed .hero-sub,

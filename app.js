@@ -51,12 +51,12 @@
       .fromTo(".hero-poem", { y: 18, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8 }, 1.05)
       .to(".hero-bloom", { opacity: 0.95, duration: 1.6, ease: "sine.out" }, 0.4);
 
-    // ---- generic reveal (Act II blocks) ----
+    // ---- generic reveal (Act II blocks) — .from() so direct hash-jumps reveal too ----
     gsap.utils.toArray("[data-reveal]").forEach(function (el) {
       var d = parseFloat(el.getAttribute("data-delay") || 0) * 0.08;
-      gsap.to(el, {
-        y: 0, opacity: 1, duration: 0.95, ease: "power3.out", delay: d,
-        scrollTrigger: { trigger: el, start: "top 86%" }
+      gsap.from(el, {
+        y: 34, opacity: 0, duration: 0.95, ease: "power3.out", delay: d,
+        scrollTrigger: { trigger: el, start: "top 88%" }
       });
     });
 
