@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我家小神獸 · 神獸家族父親節活動提案</title>
+<meta name="description" content="115年度新竹市神經多元性家庭支持計畫－神獸家族父親節活動。把 ADHD 孩子的特質，溫柔轉譯為獨一無二的小神獸。">
+<meta property="og:title" content="我家小神獸 · 神獸家族父親節活動提案">
+<meta property="og:description" content="把 ADHD 孩子的特質，溫柔轉譯為獨一無二的小神獸。">
+<meta property="og:image" content="img/cover.webp">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Nunito:wght@600;700;800;900&family=LXGW+WenKai+TC:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="dewcursor" aria-hidden="true"></div>
+<div class="progress"><i></i></div>
+
+<a class="minilogo" href="#top">
+  <img src="assets/logo.png" alt="">
+  <span>我家小神獸</span>
+</a>
+
+<nav class="chapters" aria-label="章節導引">
+  <a href="#top" data-label="序 · 主視覺"></a>
+  <a href="#about" data-label="關於白露"></a>
+  <a href="#focus" data-label="緣起"></a>
+  <a href="#story" data-label="前導故事"></a>
+  <a href="#concept" data-label="小神獸"></a>
+  <a href="#how" data-label="活動運作"></a>
+  <a href="#timeline" data-label="活動期程"></a>
+  <a href="#support" data-label="資助合作"></a>
+  <a href="#invite" data-label="邀請支持"></a>
+</nav>
+
+<!-- ============================ 序 · HERO ============================ -->
+<section class="cine hero pos-center" id="top" data-screen-label="序">
+  <div class="hero-bg" data-par-bg="0.18"><img src="img/cover.webp" alt=""></div>
+  <div class="hero-wash"></div>
+  <div class="rays"></div>
+  <div class="sunbloom hero-bloom"></div>
+  <div class="cine-content hero-content">
+    <div class="hero-org reveal-pop">
+      <img src="assets/logo.png" alt="">
+      <span>扶輪社東門分社 <b>主辦資助</b>　·　白露協會、公民行動 協辦</span>
+    </div>
+    <div class="hero-plan splitline">115 年度 · 新竹市神經多元性家庭支持計畫</div>
+    <h1 class="hero-title"><span class="ht-line" data-split>我家</span><span class="ht-line em" data-split>小神獸</span></h1>
+    <svg class="brush" viewBox="0 0 320 26" aria-hidden="true"><path d="M6 16C60 6 120 20 165 12 210 5 270 18 314 9"/></svg>
+    <div class="hero-sub splitline">神獸家族 · 父親節活動</div>
+    <p class="hero-poem reveal-up">初秋的白露，是清晨悄悄凝結的小水珠。<br>每一個與眾不同的孩子，也都藏著一束，等待被看見的光。</p>
+  </div>
+  <div class="scroll-cue"><div class="dot"></div><span>向下展開故事</span></div>
+</section>
+
+<!-- ============================ 關於白露 ============================ -->
+<section class="lumen" id="about" data-screen-label="關於白露">
+  <div class="sunbloom"></div>
+  <div class="lumen-in">
+    <div class="embrace">
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <img class="logo" src="assets/logo.png" alt="白露協會 logo">
+      <span class="orb o1"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5c4 5 6 8 6 11a6 6 0 1 1-12 0c0-3 2-6 6-11Z"/></svg></span>
+      <span class="orb o2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13C4 8 8 4 16 4c1.5 6-1 14-5 16Z"/><path d="M11 20c0-4 2-7 5-9"/></svg></span>
+      <span class="orb o3"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-9.5A3.5 3.5 0 0 1 12 7a3.5 3.5 0 0 1 7 3.5c0 5.1-7 9.5-7 9.5Z"/></svg></span>
+      <span class="orb o4"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/></svg></span>
+    </div>
+    <div class="chapter-kick cool" style="justify-content:center">About · 社團法人台灣白露社會福利服務協會</div>
+    <h2 class="lumen-poem">我們以「<span class="em">善待助人者</span>」為起點，<br>致力讓需要支持的人，都能被穩穩接住。</h2>
+    <p class="act-lead center" style="margin-top:24px">白露，是初秋微涼時悄悄凝結的小水珠；清晨而起，便見它遍布、滋養大地。當第一線的助人者被善待，善便能形成循環，流向更多需要的家庭——而這一次，我們把目光，放在 ADHD 的孩子與他們的家。</p>
+
+    <div class="pillars">
+      <div class="pillar tilt">
+        <div class="ico" style="background:rgba(145,190,169,0.18);color:var(--mint-deep)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/><path d="M3 21a7 7 0 0 1 14 0"/><path d="m18 15 2 2 3-4"/></svg></div>
+        <h4>支持助人者</h4><p>陪伴第一線工作者，照顧好自己的身心與能量。</p>
+      </div>
+      <div class="pillar tilt">
+        <div class="ico" style="background:rgba(132,185,201,0.18);color:var(--teal-deep)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-7-9.5A3.5 3.5 0 0 1 12 7a3.5 3.5 0 0 1 7 2.5C19 16.6 12 21 12 21Z"/></svg></div>
+        <h4>關懷弱勢</h4><p>為需要支持的群體，提供穩定而溫柔的協助。</p>
+      </div>
+      <div class="pillar tilt">
+        <div class="ico" style="background:rgba(235,169,75,0.18);color:var(--honey)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3C8 8 6 11 6 14a6 6 0 0 0 12 0c0-3-2-6-6-11Z"/></svg></div>
+        <h4>讓善循環</h4><p>成為「善的起點」，讓理解與溫暖向外蔓延。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ADHD 緣起 statement ============================ -->
+<section class="lumen" id="focus" data-screen-label="緣起">
+  <div class="sunbloom"></div>
+  <div class="lumen-in">
+    <div class="chapter-kick" style="justify-content:center">Why · 我們想照顧的族群</div>
+    <h2 class="lumen-poem">他們不是「不乖」，<br>只是用<span class="em">不一樣的方式</span>，感受世界。</h2>
+    <p class="act-lead center" style="margin-top:24px">ADHD（注意力不足過動症）是一種神經多元性的展現。誤解與標籤，常讓孩子與照顧者都背負了沉重的壓力。我們想做的，是換一種眼光——把那些常被當成「缺點」的特質，重新看見它背後的能量與光。這，正是「小神獸」的起點。</p>
+  </div>
+</section>
+
+<!-- ============================ 前導故事 STORYBOOK ============================ -->
+<section class="lumen tightlumen" id="story" data-screen-label="前導故事" style="min-height:62vh">
+  <div class="sunbloom" style="opacity:.4"></div>
+  <div class="lumen-in">
+    <div class="chapter-kick" style="justify-content:center">Prologue · 前導故事</div>
+    <h2 class="lumen-poem" style="color:var(--head-warm)">一個關於「看見」的故事</h2>
+    <p class="act-lead center" style="margin-top:20px">在活動啟動前，我們先用一段繪本般的故事，邀請您走進神經多元性家庭的日常——從困惑、疲憊，到理解與和解。</p>
+  </div>
+</section>
+
+<!-- scene 1 -->
+<section class="cine pos-bottom" data-screen-label="故事一">
+  <div class="cine-bg" data-par-bg="0.12"><img src="img/s01.webp" alt="爸媽面對孩子的狀況感到困惑"></div>
+  <div class="cine-veil veil-bottom"></div>
+  <div class="cine-content">
+    <div class="chapter-kick">故事 · 其一</div>
+    <h3 class="scene-title">他不是不乖，<br>只是和別人有點<span class="em">不一樣</span></h3>
+    <p class="scene-narr">家裡常有一陣收不住的旋風。爸媽手足無措，問號與驚嘆號在頭頂上打轉——「為什麼別的孩子做得到，他卻好難？」</p>
+  </div>
+</section>
+
+<!-- scene 2 -->
+<section class="cine pos-bottom" data-screen-label="故事二">
+  <div class="cine-bg" data-par-bg="0.12"><img src="img/s02.webp" alt="照顧者疲憊地坐著"></div>
+  <div class="cine-veil veil-bottom"></div>
+  <div class="cine-content">
+    <div class="chapter-kick">故事 · 其二</div>
+    <h3 class="scene-title">最累的，<br>是不被理解的那種累</h3>
+    <p class="scene-narr">一次次的提醒、一回回的崩潰。照顧者把力氣都給了孩子，卻常常忘了——自己也需要被接住。</p>
+  </div>
+</section>
+
+<!-- scene 3 -->
+<section class="cine pos-bottom" data-screen-label="故事三">
+  <div class="cine-bg" data-par-bg="0.12"><img src="img/s03.webp" alt="一家人尋求專業協助"></div>
+  <div class="cine-veil veil-bottom"></div>
+  <div class="cine-content">
+    <div class="chapter-kick">故事 · 其三</div>
+    <h3 class="scene-title">原來，<br>我們可以<span class="em">一起找答案</span></h3>
+    <p class="scene-narr">鼓起勇氣走進那扇門。專業的陪伴讓一家人慢慢明白——這不是誰的錯，而是一段，需要被好好理解的旅程。</p>
+  </div>
+</section>
+
+<!-- scene 4 — features reveal -->
+<section class="cine pos-center" data-screen-label="故事四">
+  <div class="cine-bg" data-par-bg="0.1"><img src="img/s04.webp" alt="孩子身上的小神獸特徵：鬃毛與尾巴"></div>
+  <div class="cine-veil veil-soft"></div>
+  <div class="cine-content">
+    <div class="chapter-kick" style="justify-content:center">故事 · 其四</div>
+    <h3 class="scene-title">那些「不一樣」，<br>其實藏著<span class="em">光</span></h3>
+    <p class="scene-narr">收不住的活力，是風一般的速度；停不下的好奇，是探索世界的觸角。仔細看——孩子身上，悄悄長出了只屬於他的，<b>小神獸的鬃毛與尾巴</b>。</p>
+  </div>
+</section>
+
+<!-- scene 5 -->
+<section class="cine pos-top" data-screen-label="故事五">
+  <div class="cine-bg" data-par-bg="0.12"><img src="img/s05.webp" alt="父母關係和緩，孩子在中間盪鞦韆"></div>
+  <div class="cine-veil veil-top"></div>
+  <div class="cine-content">
+    <div class="chapter-kick">故事 · 其五</div>
+    <h3 class="scene-title">看懂了，<br>愛就有了著力點</h3>
+    <p class="scene-narr">當父母不再只看見「問題」，而看見「特質」，緊繃的關係慢慢鬆開，笑容，又回到了家裡。</p>
+  </div>
+</section>
+
+<!-- scene 6 -->
+<section class="cine pos-top" data-screen-label="故事六">
+  <div class="cine-bg" data-par-bg="0.12"><img src="img/s06.webp" alt="父母溫柔擁抱孩子"></div>
+  <div class="cine-veil veil-top"></div>
+  <div class="cine-content">
+    <div class="chapter-kick">故事 · 其六</div>
+    <h3 class="scene-title">被穩穩接住的，<br>不只是孩子</h3>
+    <p class="scene-narr">一個擁抱，一句「我懂了」。被理解的孩子安心了，被支持的爸媽，也終於能好好喘一口氣。</p>
+  </div>
+</section>
+
+<!-- ============================ BEAST REVEAL ============================ -->
+<section class="cine beast pos-center" id="concept" data-screen-label="小神獸">
+  <div class="halo"></div>
+  <div class="sunbloom" style="top:38%;left:50%;width:560px;height:560px;transform:translate(-50%,-50%);opacity:.6"></div>
+  <div class="cine-content">
+    <div class="beast-fig"><img src="img/s07.webp" alt="每個孩子都是獨一無二的小神獸"></div>
+    <div class="chapter-kick" style="justify-content:center;margin-top:30px">The little spirit beast</div>
+    <h2 class="scene-title">每個孩子，<br>都是獨一無二的<span class="em">小神獸</span></h2>
+    <p class="scene-narr">他們不需要被「矯正」成別人的樣子。當世界願意換一個眼光，那些曾被誤解的特質，會在父親節的這一天，發出最溫暖的光。</p>
+  </div>
+</section>
+
+<!-- finale walk -->
+<section class="cine pos-top" data-screen-label="向光而行">
+  <div class="cine-bg" data-par-bg="0.12"><img src="img/s09.webp" alt="一家人牽手走向光的拱門"></div>
+  <div class="cine-veil veil-top"></div>
+  <div class="cine-content">
+    <div class="chapter-kick">故事 · 尾聲</div>
+    <h3 class="scene-title">一同，<span class="em">向光而行</span></h3>
+    <p class="scene-narr cool">牽起手，走過那道光的拱門。神獸家族的故事，從一個被理解的家開始，慢慢蔓延成——更多家庭的希望。</p>
+  </div>
+</section>
+
+<!-- ============================ ACT II · 小神獸概念 ============================ -->
+<section class="act act-cream">
+  <div class="wrap center" data-reveal>
+    <div class="eyebrow center">The concept · 小神獸是什麼</div>
+    <h2 class="act-title">把「特質」，翻譯成「神獸的能力」</h2>
+    <p class="act-lead center">「小神獸」是一種去汙名化的溫柔轉譯。我們邀請家長書寫孩子的日常，再把那些獨特之處，重新詮釋成一隻專屬於孩子的神獸——讓孩子的能量，被理解、被喜愛。</p>
+  </div>
+  <div class="wrap">
+    <div class="traits">
+      <div class="trait tilt" data-reveal data-delay="1"><div class="glow"></div><div class="old">靜不下來、坐不住</div><div class="arrow">↓</div><div class="new">風一般的<br>奔跑速度</div><p class="desc">用不完的活力，是探索世界最好的引擎。</p></div>
+      <div class="trait tilt" data-reveal data-delay="2"><div class="glow"></div><div class="old">注意力跳來跳去</div><div class="arrow">↓</div><div class="new">同時感知<br>萬物的觸角</div><p class="desc">對細節與變化的高度敏感，是創造力的來源。</p></div>
+      <div class="trait tilt" data-reveal data-delay="3"><div class="glow"></div><div class="old">想法太多、停不下來</div><div class="arrow">↓</div><div class="new">永不熄滅的<br>好奇之火</div><p class="desc">源源不絕的點子，是與眾不同的禮物。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ACT II · 前導影片 ============================ -->
+<section class="act act-paper" id="video">
+  <div class="wrap center" data-reveal>
+    <div class="eyebrow center">Prologue film · 前導影片</div>
+    <h2 class="act-title">用一支影片，先說出他們的心聲</h2>
+    <p class="act-lead center">活動網站上線時，我們將同步發布一支前導宣傳影片，作為徵稿的第一波號召，邀請更多家庭走進神獸家族的故事。</p>
+  </div>
+  <div class="wrap" style="max-width:980px" data-reveal>
+    <div class="video-frame">
+      <video src="media/prologue.mp4" poster="img/cover.webp" controls preload="none" playsinline></video>
+      <div class="video-ph"><div class="play"></div><div class="pcap">點擊播放 · ADHD 前導故事</div></div>
+    </div>
+    <p class="video-note">＊ 前導影片將於網站上線時嵌入此處（30–60 秒徵稿宣傳片）。</p>
+  </div>
+</section>
+
+<!-- ============================ ACT II · 活動運作 ============================ -->
+<section class="act act-warm" id="how">
+  <div class="wrap center" data-reveal>
+    <div class="eyebrow center">How it works · 活動怎麼運作</div>
+    <h2 class="act-title">從一段文字，到一份能被擁抱的禮物</h2>
+    <p class="act-lead center">我們刻意把參與門檻降到最低——家長不需要會寫作、也不需要會畫畫，只要用手機，分享一段關於孩子的日常就好。</p>
+  </div>
+  <div class="wrap">
+    <div class="flow">
+      <div class="fline" aria-hidden="true"></div>
+      <div class="fstep tilt" data-reveal data-delay="1"><div class="n">1</div><h4>家長線上投稿</h4><p>透過手機表單，以生活化的提問，分享孩子的特質與照顧的酸甜苦辣。</p></div>
+      <div class="fstep tilt" data-reveal data-delay="2"><div class="n">2</div><h4>AI 賦予神獸形象</h4><p>在去識別化與授權規範下，依投稿內容，為孩子生成專屬的小神獸圖像。</p></div>
+      <div class="fstep tilt" data-reveal data-delay="3"><div class="n">3</div><h4>製成壓克力擺件</h4><p>挑選 8 件入選故事，委請廠商製作成可愛的壓克力立牌與紀念小卡。</p></div>
+      <div class="fstep tilt" data-reveal data-delay="4"><div class="n">4</div><h4>父親節前送達 · 八八上傳</h4><p>七月底前寄送到家；邀請家庭於 8 月 8 日上傳合照，標記協會與扶輪社。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ACT II · 期程 ============================ -->
+<section class="act act-paper" id="timeline">
+  <div class="wrap">
+    <div class="tlwrap">
+      <div class="tlsticky" data-reveal>
+        <div class="eyebrow">Schedule · 活動期程</div>
+        <h2 class="act-title">三個月，<br>讓故事完整地走過一輪</h2>
+        <p class="act-lead">從七月初網站與影片上線，到八月八日父親節公開揭曉，每一步都圍繞著「家庭被看見」這件事而展開。</p>
+      </div>
+      <div>
+        <div class="timeline">
+          <div class="tl-line"><i></i></div>
+          <div class="tl-item" data-reveal data-delay="1"><div class="tl-dot"></div><div class="tl-when">七月初</div><div class="tl-card"><h4>活動網站與宣傳影片上線</h4><p>完成活動頁、投稿表單、授權提醒、FAQ、前導影片與第一波社群圖文。</p></div></div>
+          <div class="tl-item" data-reveal data-delay="2"><div class="tl-dot"></div><div class="tl-when">七月上旬至中旬</div><div class="tl-card"><h4>徵稿與資料整理</h4><p>蒐集家長投稿，進行資格檢核、內容審閱、去識別化與入選名單確認。</p></div></div>
+          <div class="tl-item" data-reveal data-delay="3"><div class="tl-dot"></div><div class="tl-when">七月中旬至下旬</div><div class="tl-card"><h4>AI 圖像轉化與禮物製作</h4><p>依入選故事製作神獸圖像、電子圖卡、壓克力立牌與紀念小卡。</p></div></div>
+          <div class="tl-item" data-reveal data-delay="4"><div class="tl-dot"></div><div class="tl-when">七月底</div><div class="tl-card"><h4>紀念禮物寄送</h4><p>完成收件資料確認與禮物寄送，提供 8 月 8 日社群分享指引。</p></div></div>
+          <div class="tl-item tl-highlight cool" data-reveal data-delay="5"><div class="tl-dot"></div><div class="tl-when">八月八日 · 父親節</div><div class="tl-card"><h4>父親節成果揭曉</h4><p>公開成果網站與社群成果，邀請家庭上傳禮物合照，標記協會與扶輪社，讓善的循環被更多人看見。</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ACT II · 資助合作 ============================ -->
+<section class="act act-cream" id="support">
+  <div class="wrap center" data-reveal>
+    <div class="eyebrow cool center">Partnership · 主辦與協辦</div>
+    <h2 class="act-title" style="color:var(--head-cool)">這份溫柔，由扶輪社東門分社支持發起</h2>
+    <p class="act-lead center">本活動由<b style="color:var(--head-warm)">扶輪社東門分社擔任主辦與資助單位</b>，白露協會與公民行動協辦執行。我們將把這份資助，化為看得見的故事、圖像、禮物與社群影響力。</p>
+  </div>
+  <div class="wrap">
+    <div class="roles">
+      <div class="role host tilt" data-reveal data-delay="1">
+        <span class="crown"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--honey)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l4 3 5-6 5 6 4-3-2 11H5L3 8Z"/></svg></span>
+        <span class="tag">主辦 · 資助</span><h4>扶輪社東門分社</h4>
+        <p>支持父親節公益倡議、整合資源、活動冠名與社群推廣，使神經多元性家庭支持議題，進入更廣泛的公共視野。</p>
+      </div>
+      <div class="role co tilt" data-reveal data-delay="2">
+        <span class="tag">協辦 · 執行</span><h4>台灣白露社會福利服務協會</h4>
+        <p>負責活動設計、網站與表單、家長聯繫、內容審閱、去識別化、AI 圖像轉化、紀念禮物製作與成果報告。</p>
+      </div>
+      <div class="role co tilt" data-reveal data-delay="3">
+        <span class="tag">協辦 · 倡議</span><h4>公民行動</h4>
+        <p>協助公共倡議、社群動員與成果分享，讓家庭故事與社會理解，形成更緊密的連結。</p>
+      </div>
+    </div>
+    <div class="benefits">
+      <div class="benefit" data-reveal data-delay="1"><span class="b-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5L12 3Z"/></svg></span><div><h4>主辦冠名露出</h4><p>網站、影片、社群貼文、成果網站與報告，皆呈現扶輪社東門分社主辦資助。</p></div></div>
+      <div class="benefit" data-reveal data-delay="2"><span class="b-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></span><div><h4>公益可視化</h4><p>把資源轉化為故事、圖像、禮物與可回報的社群觸及數據。</p></div></div>
+      <div class="benefit" data-reveal data-delay="3"><span class="b-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="3"/><path d="M21 21v-2a4 4 0 0 0-3-3.85"/></svg></span><div><h4>家庭情感連結</h4><p>父親節的節點，能自然引發家庭共感與社群分享。</p></div></div>
+      <div class="benefit" data-reveal data-delay="4"><span class="b-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><h4>風險治理完善</h4><p>採去識別化、授權管理與 AI 使用邊界，守護兒少隱私與合作信任。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ACT II · 成果與經費 ============================ -->
+<section class="act act-warm" id="budget">
+  <div class="wrap center" data-reveal>
+    <div class="eyebrow center">Outcomes · 預期成果與經費</div>
+    <h2 class="act-title">每一分支持，都化為看得見的成果</h2>
+  </div>
+  <div class="wrap">
+    <div class="kpis">
+      <div class="kpi" data-reveal data-delay="1"><div><span class="num count" data-count="20">0</span><span class="unit">件+</span></div><div class="lbl">徵集家長故事</div></div>
+      <div class="kpi" data-reveal data-delay="2"><div><span class="num count" data-count="8">0</span><span class="unit">件</span></div><div class="lbl">入選神獸圖像與禮物</div></div>
+      <div class="kpi" data-reveal data-delay="3"><div><span class="num count" data-count="1">0</span><span class="unit">支</span></div><div class="lbl">前導宣傳影片</div></div>
+      <div class="kpi" data-reveal data-delay="4"><div><span class="num">8</span><span class="unit">/8</span></div><div class="lbl">父親節公開揭曉</div></div>
+    </div>
+
+    <div class="budget">
+      <div class="brow" style="--w:100%"><div class="bname">資訊服務與網站建置</div><div class="bamt">NT$ 24,000</div><div class="bdesc">活動網站、成果展示頁、表單串接與基本維護。</div><div class="bbar"><i></i></div></div>
+      <div class="brow" style="--w:72%"><div class="bname">撰稿及故事整理費</div><div class="bamt">NT$ 17,400</div><div class="bdesc">整理 20 件以上家長故事，完成去識別化與展示文字。</div><div class="bbar"><i></i></div></div>
+      <div class="brow" style="--w:57%"><div class="bname">內容審查費</div><div class="bamt">NT$ 13,800</div><div class="bdesc">主題適切性、隱私風險與公開展示可行性審閱。</div><div class="bbar"><i></i></div></div>
+      <div class="brow" style="--w:50%"><div class="bname">紀念品製作與輸出</div><div class="bamt">NT$ 12,000</div><div class="bdesc">入選神獸圖卡、壓克力立牌、包裝與成果輸出。</div><div class="bbar"><i></i></div></div>
+      <div class="brow" style="--w:32%"><div class="bname">臨時行政人力</div><div class="bamt">NT$ 7,600</div><div class="bdesc">投稿檢核、補件聯繫、資料整理與禮物寄送。</div><div class="bbar"><i></i></div></div>
+      <div class="brow" style="--w:25%"><div class="bname">AI 圖像與權利風險訓練</div><div class="bamt">NT$ 6,000</div><div class="bdesc">建立工作人員圖像生成、授權與風險辨識流程。</div><div class="bbar"><i></i></div></div>
+      <div class="brow" style="--w:9%"><div class="bname">郵寄與行政雜支</div><div class="bamt">NT$ 2,000</div><div class="bdesc">文具、郵資、包裝、寄送與活動行政支出。</div><div class="bbar"><i></i></div></div>
+      <div class="btotal"><div class="l">合作經費需求合計</div><div class="v"><small>NT$</small> <span class="count" data-count="82800">0</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 邀請與感謝 ============================ -->
+<section class="lumen closing" id="invite" data-screen-label="邀請支持">
+  <div class="sunbloom"></div>
+  <div class="lumen-in">
+    <div class="eyebrow center">Thank you · 邀請您一同支持</div>
+    <h2>謝謝您，讀到了這裡</h2>
+    <p class="poem">每一個願意停下來、好好閱讀的人，<br>都是讓善開始循環的那滴白露。<br>誠摯邀請您，成為神獸家族的支持者，<br>與我們一同——向光而行。</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:tw.whitedew@gmail.com"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-7-9.5A3.5 3.5 0 0 1 12 7a3.5 3.5 0 0 1 7 2.5C19 16.6 12 21 12 21Z"/></svg>我想支持這個計畫</a>
+      <a class="btn btn-ghost" href="#top">重溫前導故事</a>
+    </div>
+    <div class="contact-card">
+      <div class="cinfo"><div class="ck">主辦 · 資助單位</div><div class="cv">扶輪社東門分社</div></div>
+      <div class="cinfo"><div class="ck">協辦 · 執行單位</div><div class="cv">台灣白露社會福利服務協會、公民行動</div></div>
+      <div class="cinfo"><div class="ck">電子信箱</div><div class="cv">tw.whitedew@gmail.com</div></div>
+      <div class="cinfo"><div class="ck">聯絡電話</div><div class="cv">0980-686-968</div></div>
+      <div class="cinfo"><div class="ck">協會地址</div><div class="cv">新竹市香山區中山路 650 之 7 號 3 樓</div></div>
+      <div class="cinfo"><div class="ck">立案字號</div><div class="cv">內政部 114 年台內團字第 1140020432 號</div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <img src="assets/logo.png" alt="">
+    <div class="fl">神獸家族父親節活動 · 115 年度新竹市神經多元性家庭支持計畫</div>
+    <div class="fs">扶輪社東門分社 主辦資助　|　台灣白露社會福利服務協會、公民行動 協辦</div>
+  </div>
+</footer>
+
+<!-- libraries (self-hosted) — graceful: site is fully visible without them -->
+<script defer src="vendor/lenis.min.js"></script>
+<script defer src="vendor/gsap.min.js"></script>
+<script defer src="vendor/ScrollTrigger.min.js"></script>
+<script defer src="vendor/split-type.min.js"></script>
+<script defer src="app.js"></script>
+</body>
+</html>
