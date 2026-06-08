@@ -207,10 +207,10 @@ body::after {
    ============================================================ */
 .hero { background: radial-gradient(130% 100% at 50% 30%, #FFF7E4, var(--paper) 55%, var(--paper-2)); }
 .hero-bg { position: absolute; inset: -10%; z-index: 0; overflow: hidden; will-change: transform; }
-.hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 60%;
-  transform: scale(1.2); filter: blur(7px) saturate(1.08) brightness(1.06);
+.hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 66%;
+  transform: scale(1.32); filter: blur(17px) saturate(1.12) brightness(1.05);
   animation: heroDrift 30s ease-in-out infinite alternate; }
-@keyframes heroDrift { from { transform: scale(1.2) translate(0,0); } to { transform: scale(1.28) translate(-1.5%, -1%); } }
+@keyframes heroDrift { from { transform: scale(1.32) translate(0,0); } to { transform: scale(1.4) translate(-1.5%, -1%); } }
 .hero-wash { position: absolute; inset: 0; z-index: 1; pointer-events: none;
   background:
     radial-gradient(120% 90% at 50% 42%, rgba(251,246,233,0.2), rgba(251,243,228,0.62) 60%, rgba(248,238,216,0.9) 100%),
@@ -234,6 +234,9 @@ body::after {
 .hero-title .em { background: linear-gradient(110deg, var(--terra), var(--sun) 55%, var(--honey));
   -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-title .char { display: inline-block; will-change: transform, opacity; }
+/* split chars inside the gradient line need their own fill (clip can't cross spans) */
+.hero-title .em .char { background: linear-gradient(110deg, var(--terra), var(--sun) 55%, var(--honey));
+  -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-sub { font-family: var(--hand); font-size: clamp(20px, 3vw, 38px); color: var(--head-cool); margin-top: 16px; letter-spacing: 0.1em; }
 .brush { display: block; width: clamp(180px, 26vw, 360px); height: 26px; margin: 18px auto 0; }
 .brush path { fill: none; stroke: var(--terra); stroke-width: 6; stroke-linecap: round; opacity: 0.7;
